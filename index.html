@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>X Clone</title>
+</head>
+<body>
+    <div id="phone">
+        <div id="main-wrapper" class="fancy-scrollbar">
+          <div id="main">
+            <div id="content">
+              <div class="tweet-header">
+                <button class="back-button" type="button">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <div class="tweet-user">
+                  <img class="tweet-user-profile-img" src="https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_normal.jpg" />
+                  <div class="tweet-user-info">
+                    <div class="tweet-user-profile">
+                      <div class="tweet-user-profile-info">
+                        <span class="tweet-user-profile-handle">Elon Musk</span>
+                        <i class="tweet-user-verified-badge fa-solid fa-badge-check"></i>
+                      </div>
+                    </div>
+                    <span class="tweet-timestamp">8:06 AM · 13 Jan 23</span>
+                    <span class="tweet-views">· 18.2M views</span>
+                  </div>
+                </div>
+                <button class="tweet-options" type="button">
+                  <i class="fa-regular fa-ellipsis-vertical"></i>
+                </button>
+              </div>
+              <div class="tweet-content">
+                <p class="tweet-body">
+                  Bookmark button moving to tweet details page, fixing image length crop & other minor bug fixes next week
+                </p>
+                <div class="tweet-actions">
+                  <div class="tweet-comment tweet-action">
+                    <button type="button">
+                      <i class="fa-regular fa-comment"></i>
+                    </button>
+                    <button class="tweet-comment-count tweet-action-value">9.2K</button>
+                  </div>
+                  <div class="tweet-retweet tweet-action">
+                    <button type="button">
+                      <i class="fa-solid fa-arrows-retweet"></i>
+                    </button>
+                    <span class="dot">·</span>
+                    <button class="tweet-retweet-count tweet-action-value">10.7K</button>
+                  </div>
+                  <div class="tweet-like tweet-action">
+                    <button type="button">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <span class="dot">·</span>
+                    <button class="tweet-like-count tweet-action-value">117K</button>
+                  </div>
+                  <div class="tweet-share tweet-action">
+                    <button type="button">
+                      <i class="fa-regular fa-share-nodes"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div id="tweet-new-reply">
+                <img class="tweet-user-profile-img" src="https://admin.apped.co.za/appFiles/9b2313e2-3e78-474a-364c-08d9962e7910/Apped_Logo_Transparent.png" />
+                <input class="tweet-reply-input" type="text" placeholder="Tweet your reply" />
+                <button class="tweet-reply-button" type="button">Reply</button>
+              </div>
+              <div id="tweet-replies">
+                <div class="tweet-reply-chain">
+                  <div class="tweet-reply">
+                    <div class="tweet-header">
+                      <div class="tweet-user">
+                        <img class="tweet-user-profile-img" src="https://pbs.twimg.com/profile_images/772910716072230912/hZH6drDZ_normal.jpg" />
+                        <div class="tweet-user-info">
+                          <div class="tweet-user-profile">
+                            <div class="tweet-user-profile-info">
+                              <span class="tweet-user-profile-handle">Marcelo P. Lima</span>
+                              <i class="tweet-user-verified-badge fa-solid fa-badge-check"></i>
+                              <span class="tweet-timestamp">Jan 13</span>
+                              <span class="tweet-views">· 289K views</span>           
+                            </div>
+                            <div class="tweet-replying-to"><i class="fa-solid fa-arrow-turn-down-right"></i> <span class="tweet-replying-to-name">Elon Musk</span></div>
+                          </div>      
+                        </div>
+                      </div>
+                      <button class="tweet-options" type="button">
+                        <i class="fa-regular fa-ellipsis-vertical"></i>
+                      </button>
+                    </div>
+                    <div class="tweet-content">
+                      <p class="tweet-body">
+                        Please make bookmarks searchable
+                      </p>
+                      <div class="tweet-actions">
+                        <div class="tweet-comment tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-comment"></i>
+                          </button>
+                          <button class="tweet-comment-count tweet-action-value">44</button>
+                        </div>
+                        <div class="tweet-retweet tweet-action">
+                          <button type="button">
+                            <i class="fa-solid fa-arrows-retweet"></i>
+                          </button>
+                          <button class="tweet-retweet-count tweet-action-value">78</button>
+                        </div>
+                        <div class="tweet-like tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-heart"></i>
+                          </button>
+                          <button class="tweet-like-count tweet-action-value">2K</button>
+                        </div>
+                        <div class="tweet-share tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-share-nodes"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tweet-reply">
+                    <div class="tweet-header">
+                      <div class="tweet-user">
+                        <img class="tweet-user-profile-img" src="https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_normal.jpg" />
+                        <div class="tweet-user-info">
+                          <div class="tweet-user-profile">
+                            <div class="tweet-user-profile-info">
+                              <span class="tweet-user-profile-handle">Elon Musk</span>
+                              <i class="tweet-user-verified-badge fa-solid fa-badge-check"></i>
+                              <span class="tweet-timestamp">Jan 13</span>
+                              <span class="tweet-views">· 317K views</span>       
+                            </div>
+                          </div>      
+                        </div>
+                      </div>
+                      <button class="tweet-options" type="button">
+                        <i class="fa-regular fa-ellipsis-vertical"></i>
+                      </button>
+                    </div>
+                    <div class="tweet-content">
+                      <p class="tweet-body">
+                        They will be
+                      </p>
+                      <div class="tweet-actions">
+                        <div class="tweet-comment tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-comment"></i>
+                          </button>
+                          <button class="tweet-comment-count tweet-action-value">295</button>
+                        </div>
+                        <div class="tweet-retweet tweet-action">
+                          <button type="button">
+                            <i class="fa-solid fa-arrows-retweet"></i>
+                          </button>
+                          <button class="tweet-retweet-count tweet-action-value">257</button>
+                        </div>
+                        <div class="tweet-like tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-heart"></i>
+                          </button>
+                          <button class="tweet-like-count tweet-action-value">4.5K</button>
+                        </div>
+                        <div class="tweet-share tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-share-nodes"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="tweet-reply-chain-show-more" type="button">
+                    <i class="fa-regular fa-ellipsis-vertical"></i>
+                    <span>Show replies</span>                
+                  </button>
+                </div>
+                <div class="tweet-reply-chain">
+                  <div class="tweet-reply">
+                    <div class="tweet-header">
+                      <div class="tweet-user">
+                        <img class="tweet-user-profile-img" src="https://pbs.twimg.com/profile_images/1561717677600686083/Dm80jwOp_normal.jpg" />
+                        <div class="tweet-user-info">
+                          <div class="tweet-user-profile">
+                            <div class="tweet-user-profile-info">
+                              <span class="tweet-user-profile-handle">Matt Wallace</span>
+                              <i class="tweet-user-verified-badge fa-solid fa-badge-check"></i>
+                              <span class="tweet-timestamp">Jan 13</span>
+                              <span class="tweet-views">· 85.3K views</span>           
+                            </div>
+                            <div class="tweet-replying-to"><i class="fa-solid fa-arrow-turn-down-right"></i> <span class="tweet-replying-to-name">Elon Musk</span></div>
+                          </div>      
+                        </div>
+                      </div>
+                      <button class="tweet-options" type="button">
+                        <i class="fa-regular fa-ellipsis-vertical"></i>
+                      </button>
+                    </div>
+                    <div class="tweet-content">
+                      <p class="tweet-body">
+                        Twitter was about to go out of business before Elon Musk bought it. Now it is on track to be the top social media company on earth!
+                      </p>
+                      <div class="tweet-actions">
+                        <div class="tweet-comment tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-comment"></i>
+                          </button>
+                          <button class="tweet-comment-count tweet-action-value">138</button>
+                        </div>
+                        <div class="tweet-retweet tweet-action">
+                          <button type="button">
+                            <i class="fa-solid fa-arrows-retweet"></i>
+                          </button>
+                          <button class="tweet-retweet-count tweet-action-value">175</button>
+                        </div>
+                        <div class="tweet-like tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-heart"></i>
+                          </button>
+                          <button class="tweet-like-count tweet-action-value">2K</button>
+                        </div>
+                        <div class="tweet-share tweet-action">
+                          <button type="button">
+                            <i class="fa-regular fa-share-nodes"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="tweet-reply-chain-show-more" type="button">
+                    <i class="fa-regular fa-ellipsis-vertical"></i>
+                    <span>Show replies</span>                
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
