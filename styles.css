@@ -14,7 +14,7 @@
   }
   
   body {
-    background-color: rgb(var(--body-color));
+    background: linear-gradient(90deg,#606060 0%, #000 137.64%);
     margin: 0px;
   }
   
@@ -395,6 +395,35 @@
   
   .tweet-reply-chain-show-more > span {
     color: rgb(var(--theme-medium));
+  }
+
+  #bottom-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #000000;
+  }
+  
+  #bottom-nav > a {
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    padding: 1.25rem;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  #bottom-nav > a > i {
+    font-size: 1.1rem;
+  }
+  
+  .bottomNavIcons {
+    height: 1.5rem;
   }
   
   @media(max-width: 500px) {
